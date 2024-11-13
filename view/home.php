@@ -53,7 +53,7 @@
                                     <input type="hidden" name="tensp" value="'.$tensp.'"> 
                                     <input type="hidden" name="img" value="'.$img.'">
                                     <input type="hidden" name="price" value="'.$price.'"> 
-                                    <input type-"submit" name="addtocart" value="Thêm vào giỏ hàng">
+                                    <input type="submit" name="addtocart" value="Thêm vào giỏ hàng">
                                 </form>
                                 </div>
                             </div>';
