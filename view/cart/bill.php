@@ -23,7 +23,7 @@
                             <td><input type="text" name="name" value="<?= $name ?>"></td>
                         </tr>
                         <tr>
-                            <td>Dia chi</td>
+                            <td>Địa chỉ</td>
                             <td><input type="text" name="address" value="<?= $address ?>"></td>
                         </tr>
                         <tr>
@@ -42,9 +42,9 @@
                 <div class="row boxcontent">
                     <table>
                         <tr>
-                            <td><input type="radio" name="pttt" checked> Trả tiền khi nhận hàng</td>
-                            <td><input type="radio" name="pttt"> Chuyển khoản ngân hàng</td>
-                            <td><input type="radio" name="pttt"> Thanh toán online</td>
+                            <td><input type="radio" value="1" name="pttt" checked> Trả tiền khi nhận hàng</td>
+                            <td><input type="radio" value="2" name="pttt"> Chuyển khoản ngân hàng</td>
+                            <td><input type="radio" value="3" name="pttt"> Thanh toán online</td>
                         </tr>
                     </table>
                 </div>
@@ -54,20 +54,12 @@
                 <div class="boxtitle">THÔNG TIN GIỎ HÀNG </div>
                 <div class="row boxcontent cart">
                     <table>
-                        <tr>
-                            <th>STT</th>
-                            <th>Hình</th>
-                            <th>Sản phẩm </th>
-                            <th>Đơn giá</th>
-                            <th>Số lượng</th>
-                            <th>Thành tiền</th>
-                        </tr>
-                        <?php viewcart();?>
+                        <?php viewcart(0);?>
                     </table>
                 </div>
             </div>
     <div class="row mb bill">
-        <input type="submit" value="ĐỒNG Ý ĐẶT HÀNG">
+        <input type="submit" value="ĐỒNG Ý ĐẶT HÀNG" name="dongydathang">
     </div>
     </form>
     </div>

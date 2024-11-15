@@ -4,16 +4,8 @@
             <div class="boxtitle">GIỎ HÀNG </div>
             <div class="row boxcontent cart ">
                 <table>
-                    <tr>
-                        <th>Hình</th>
-                        <th>Sản phẩm</th>
-                        <th>Đơn giá</th>
-                        <th>Số lượng</th>
-                        <th>Thành tiền</th>
-                        <th>Thao tác</th>
-                    </tr>
-                    <?php
-                    viewcart();
+                    
+                    <?php viewcart(1);
                     ?>
                 </table>
             </div>
